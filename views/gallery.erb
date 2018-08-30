@@ -1,0 +1,37 @@
+<h2>GALLERY</h2>
+
+<div id="festivalDiv">
+    <div class="festBan">
+        <a href="https://www.discoveranoka.com/events/food-truck-festival/" target="_blank"><img class="galPics" src="/images/festival.jpg"></a>
+    </div>
+    <br>
+    <div class="festBan">
+        <a href="https://mountloretto.org/event/food-truck-festival-at-the-mount/" target="_blank"><img class="galPics" src="/images/festival5.jpg"></a>
+    </div>
+    <br>
+    <div class="festBan">
+        <a href="https://chescolibraries.org/news/2018-food-truck-festival-announced" target="_blank"><img class="galPics" src="/images/festival3.jpg"></a>
+    </div>
+    <br>
+    <div class="festBan">
+        <a href="https://nocturnalsd.com/event/atx-food-truck-festival-promo-code-tickets-discount-austin-2018/2018-07-20/" target="_blank"><img class="galPics" src="/images/festival4.jpg"></a>
+    </div>
+</div>
+
+<div id="modal">
+    <button id="button"><em>X</em></button>
+    <p>Click on the images to be redirected to their website!</p>
+</div>
+
+<script>
+
+    setTimeout(function() {
+    document.querySelector("#modal").style = "display:block"
+}, 3000)
+
+// function above tells server to bring modal up after a delay of 3 seconds
+
+document.getElementById("button").onclick = function (){
+    document.querySelector("#modal").style = "display:none"
+}
+</script>

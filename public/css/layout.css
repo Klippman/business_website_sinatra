@@ -1,0 +1,181 @@
+/* body {
+    background-color: #F0F8FF;
+} */
+
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 0;
+    font-family: chalkduster, fantasy;
+}
+
+/* background image */
+#bodyImg {
+    background-image: url("/images/wood.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+/* Nav bar */
+li {
+    display: inline-block;
+    margin: 0 70px;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Home page css */
+
+img {
+    height: 500px;
+    width: 600px;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    margin-left: 29%;
+    margin-right: 29%;
+    border: 8px inset lightsteelblue;
+    margin-top: 48px;
+    width: 600px;
+}
+
+#menu {
+    height: 400px;
+    width: 74%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background: rgba(26, 26, 26, 0.4);
+    border: 2px double saddlebrown;
+}
+
+/* Mission page css */
+
+#about {
+    font-family: chalkduster, fantasy;
+    height: 636px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 42px;
+    padding: 10px;
+    font-size: x-large;
+    background: rgba(255, 0, 0, 0.25);
+    color: white;
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: impact;
+    text-shadow: 0 0 20px #000;
+    color: saddlebrown;
+}
+
+/* Contact page css */
+
+#messageInput {
+    width: 100%;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: 10px;
+}
+
+.happyFace {
+    height: 100px;
+    width: 100px;
+    margin-left: 25px;
+}
+
+.madFace {
+    height: 100px;
+    width: 100px;
+    margin-left: 43px;
+}
+
+.otherFace {
+    height: 100px;
+    width: 100px;
+    margin-left: 24px;
+}
+
+/* Gallery page css */
+
+#festivalDiv {
+    width: 100%;
+    text-align: center;
+}
+
+.galPics {
+    height: 400px;
+    width: 700px;
+    border: 10px double black;
+    margin-bottom: 5px;
+}
+
+.galPics:hover {
+    box-shadow: 10px 10px 5px red;
+    border: none;
+    border-radius: 50px;
+}
+
+/* Footer css */
+
+.iconPic {
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+/* Modal css */
+
+#modal {
+    display: none;
+    position: fixed;
+    width: 365px;
+    height: 200px;
+    top: 30%;
+    left: 50%;
+    box-shadow: 6px 6px black;
+    background: gray;
+}
+
+#modal p {
+    padding: 20px;
+    width: 80%;
+    height: 20%;
+    font-size: 30px;
+    text-align: center;
+}
+
+#modal button {
+    float: right;
+}
